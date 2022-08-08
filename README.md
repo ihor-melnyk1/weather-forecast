@@ -6,12 +6,13 @@ Open the project directory and run:
 
 ### `npm install`
 
-Create ### `.env` file in the root directory.
+Create `.env` file in the root directory.
 In this file, create 3 environment variables:
 
 ### `REACT_APP_WEATHER_API_HOST=https://api.openweathermap.org/data/2.5`
 ### `REACT_APP_IMG_HOST=https://openweathermap.org`
-### `REACT_APP_WEATHER_API_KEY=Your API key from [OpenWeather](https://home.openweathermap.org/api_keys)`
+### `REACT_APP_WEATHER_API_KEY=Your API key`
+You can get API key at [OpenWeather](https://home.openweathermap.org/api_keys)
 
 Then run
 ### `npm start`
