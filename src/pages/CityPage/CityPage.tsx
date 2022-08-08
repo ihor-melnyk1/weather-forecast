@@ -84,11 +84,11 @@ const CityPage: FC = () => {
             <Typography variant='h2'>
               {`${cityWeather.main.temp}°С`}
             </Typography>
-            <Box sx={{ marginLeft: '20px' }}>
+            <Box>
               <Typography variant='subtitle1'>
                 {`Feels like ${cityWeather.main.feels_like}°С, ${cityWeather.weather[0].description}.`}
               </Typography>
-              <CustomBox sx={{ flexWrap: 'wrap' }}>
+              <CustomBox>
                 <Typography variant='subtitle2'>
                   {`Wind speed: ${cityWeather.wind.speed} m/s`}
                 </Typography>
