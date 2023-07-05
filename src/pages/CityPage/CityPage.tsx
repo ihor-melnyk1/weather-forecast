@@ -54,7 +54,7 @@ const CityPage: FC = () => {
     cityWeather
       ? (
         <CustomWrapper>
-          <CustomLink to='/'>
+          <CustomLink to='/weather-forecast'>
             <Button variant='contained'>
               <ArrowBackIcon />
               Back to cities

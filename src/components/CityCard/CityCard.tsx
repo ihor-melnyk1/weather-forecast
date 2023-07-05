@@ -75,7 +75,7 @@ const CityCard: FC<CityCardProps> = ({ city }) => {
           : <Skeleton variant='rectangular' height={100} width={290} />}
       </CardContent>
       <CardActions sx={{ justifyContent: 'space-between' }}>
-        <CustomLink to={`/city/${city.id}`}>
+        <CustomLink to={`/weather-forecast/city/${city.id}`}>
           <Button
             variant='contained'
             size='medium'
