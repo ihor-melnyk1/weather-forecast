@@ -5,7 +5,7 @@ import { CustomHeader, CustomLink } from './Header.styled';
 
 const Header: FC = () => (
   <CustomHeader component='header'>
-    <CustomLink to='/'>
+    <CustomLink to='/weather-forecast'>
       WEATHER FORECAST
       <WbSunnyIcon fontSize='large' />
     </CustomLink>
