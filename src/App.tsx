@@ -20,10 +20,10 @@ const App = () => (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route index element={<HomePage />} />
-        <Route path='/city/:cityId' element={<CityPage />} />
-        <Route path='/404' element={<NotFoundPage />} />
-        <Route path='*' element={<Navigate to='/404' />} />
+        <Route path='/weather-forecast' element={<HomePage />} />
+        <Route path='/weather-forecast/city/:cityId' element={<CityPage />} />
+        <Route path='/weather-forecast/404' element={<NotFoundPage />} />
+        <Route path='*' element={<Navigate to='/weather-forecast/404' />} />
       </Routes>
     </BrowserRouter>
   </ThemeProvider>

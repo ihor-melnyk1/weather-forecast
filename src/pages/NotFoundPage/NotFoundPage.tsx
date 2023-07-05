@@ -7,7 +7,7 @@ import { CustomBox, CustomLink } from './NotFoundPage.styled';
 const NotFoundPage: FC = () => (
   <CustomBox component='main'>
     <Typography variant='h2'> Route not found</Typography>
-    <CustomLink to='/'>
+    <CustomLink to='/weather-forecast'>
       <Button variant='contained'>
         <ArrowBackIcon />
         Back to Home Page
